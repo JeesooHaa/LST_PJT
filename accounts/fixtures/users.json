@@ -1,0 +1,119 @@
+[
+  {
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$gOLuoAOuIK3f$h3BXl3Ti4UtQQqfNh9V2Sww6Fh4ALi+NSXt9ek3z0qk=",
+      "last_login": "2019-11-25T07:19:21.719Z",
+      "is_superuser": false,
+      "username": "hailey",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-11-25T07:19:21.618Z",
+      "nickname": "hh",
+      "age": 11,
+      "group": 8,
+      "level": 1,
+      "groups": [],
+      "user_permissions": [],
+      "followers": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$ez4I7TyEayVG$tV7/TapO+D04SNS6/Htqafni1V4wKllArrZ4gFZAPow=",
+      "last_login": "2019-11-25T07:34:56.180Z",
+      "is_superuser": false,
+      "username": "jsh",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-11-25T07:34:56.082Z",
+      "nickname": "jsh",
+      "age": 22,
+      "group": null,
+      "level": 1,
+      "groups": [],
+      "user_permissions": [],
+      "followers": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$wxlRsovSIrwW$6lEm7O9N5Tlqgu7VAgPsNnUE8Of7NripJAbF+pj1Rd0=",
+      "last_login": "2019-11-27T06:35:35.766Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2019-11-25T23:54:37Z",
+      "nickname": "\ud3ad\uc218\ub760",
+      "age": null,
+      "group": 8,
+      "level": 1,
+      "groups": [],
+      "user_permissions": [],
+      "followers": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$YiUpQ13jr4au$we7lbWN/pEwfOa42UPSccp7HnfPZz/NvI+sDz+ytD/0=",
+      "last_login": "2019-11-26T03:19:34.171Z",
+      "is_superuser": false,
+      "username": "haji",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-11-26T03:19:34.073Z",
+      "nickname": "hajei",
+      "age": 1234,
+      "group": null,
+      "level": 1,
+      "groups": [],
+      "user_permissions": [],
+      "followers": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$150000$DHJKvQgAgbEH$tykfIxDOG3ix5EHo7cqEmMDtRUVh6T8ITgp+vD31D1s=",
+      "last_login": "2019-11-27T02:15:22.773Z",
+      "is_superuser": true,
+      "username": "admin2",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2019-11-27T01:30:30.195Z",
+      "nickname": "",
+      "age": null,
+      "group": null,
+      "level": 1,
+      "groups": [],
+      "user_permissions": [],
+      "followers": []
+    }
+  }
+]
