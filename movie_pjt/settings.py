@@ -130,6 +130,6 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
 
-STATIC_ROOT = 'static'
+STATIC_ROOT = 'staticfiles'
 
 AUTH_USER_MODEL = 'accounts.User'
