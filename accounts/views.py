@@ -21,7 +21,7 @@ def signup(request):
             user = form.save()
             # return redirect('accounts:login')
             auth_login(request, user)
-            return redirect('accounts:index')
+            return redirect('movies:index')
     else: # == 'GET'
         form = CustomUserCreationForm()
     context = {'form': form}
